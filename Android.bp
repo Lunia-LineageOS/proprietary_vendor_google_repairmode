@@ -1,0 +1,10 @@
+android_app_import {
+    name: "RepairMode",
+    owner: "google",
+    apk: "proprietary/system_ext/app/RepairMode/RepairMode.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
